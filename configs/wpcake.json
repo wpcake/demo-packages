@@ -10,8 +10,8 @@
     "others": "Others"
   },
   "pagebuilders": {
+    "elementor": "Elementor",
     "default": "Default",
-    "elementor": "Elementor"
   },
   "demos": {
     "restaurant": {
