@@ -11,7 +11,6 @@
   },
   "pagebuilders": {
     "elementor": "Elementor",
-    "default": "Default",
   },
   "demos": {
     "restaurant": {
@@ -29,6 +28,12 @@
       "pagebuilder": [
         "elementor"
       ],
+      "plugins_list": {
+        "elementor": {
+          "name": "Elementor",
+          "slug": "elementor/elementor.php"
+        }
+      },
       "core_options": {
         "blogname": "Restaurant",
         "page_on_front":"Home Page"
@@ -72,6 +77,12 @@
       "pagebuilder": [
         "elementor"
       ],
+      "plugins_list": {
+        "elementor": {
+          "name": "Elementor",
+          "slug": "elementor/elementor.php"
+        }
+      },
       "core_options": {
         "blogname": "Business Pro",
         "page_on_front":"Home Page"
