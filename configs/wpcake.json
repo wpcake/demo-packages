@@ -1,0 +1,106 @@
+{
+  "name": "WPCake",
+  "slug": "wpcake",
+  "version": "1.1.1",
+  "homepage": "https://wpcake.com",
+  "categories": {
+    "all": "All",
+    "blog": "Blog",
+    "news": "News",
+    "others": "Others"
+  },
+  "pagebuilders": {
+    "default": "Default",
+    "elementor": "Elementor"
+  },
+  "demos": {
+    "restaurant": {
+      "title": "Resturant",
+      "preview": "https://wpcakedemos.com/resturant/",
+      "description": "This is the free restaurant theme for WPCake.",
+      "template": [
+        "wpcake"
+      ],
+      "category": [
+        "all",
+        "food",
+        "blog"
+      ],
+      "pagebuilder": [
+        "elementor"
+      ],
+      "core_options": {
+        "blogname": "Restaurant",
+        "page_on_front":"Home Page"
+      },
+      "widgets_data_update": {
+        "dropdown_categories": {
+          "category": {
+            "mantranews_featured_posts_vertical_widget": {
+              "3": {
+                "category": "Fashion"
+              },
+              "4": {
+                "category": "Sports"
+              },
+              "5": {
+                "category": "General"
+              }
+            }
+          }
+        }
+      },
+      "customizer_data_update": {
+        "nav_menu_locations": {
+          "primary": "Main Menu"
+        }
+      }
+    },
+    "business": {
+      "isPro": true,
+      "title": "Business Pro",
+      "preview": "https://wpcakedemos.com/business",
+      "description": "The premium version of the business demo for wpcake.",
+      "template": [
+        "wpcake"
+      ],
+      "category": [
+        "all",
+        "business"
+        "blog"
+      ],
+      "pagebuilder": [
+        "elementor"
+      ],
+      "core_options": {
+        "blogname": "Business Pro",
+        "page_on_front":"Home Page"
+      },
+      "widgets_data_update": {
+        "dropdown_categories": {
+          "category": {
+            "mantranews_featured_posts_vertical_widget": {
+              "3": {
+                "category": "Fashion"
+              },
+              "4": {
+                "category": "Sports"
+              },
+              "5": {
+                "category": "General"
+              }
+            }
+          }
+        }
+      },
+      "customizer_data_update": {
+        "nav_menu_locations": {
+          "primary": "Main Menu",
+          "top-header": "Top Header Menu",
+          "footer": "Footer Menu"
+        }
+      }
+    }
+
+  }
+}
