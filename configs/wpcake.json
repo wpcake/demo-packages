@@ -1,12 +1,13 @@
 {
   "name": "WPCake",
   "slug": "wpcake",
-  "version": "1.1.1",
-  "homepage": "https://wpcake.com",
+  "version": "1.1.0",
+  "homepage": "https://wpcake.com/pro",
   "categories": {
     "all": "All",
     "blog": "Blog",
-    "news": "News",
+    "ecommerce": "Ecommerce",
+    "business": "Business",
     "others": "Others"
   },
   "pagebuilders": {
@@ -14,15 +15,15 @@
   },
   "demos": {
     "restaurant": {
-      "title": "Resturant",
-      "preview": "https://wpcakedemos.com/resturant/",
+      "title": "Restaurant",
+      "preview": "https://wpcakedemos.com/restaurant/",
       "description": "This is the free restaurant theme for WPCake.",
       "template": [
         "wpcake"
       ],
       "category": [
         "all",
-        "food",
+        "business",
         "blog"
       ],
       "pagebuilder": [
